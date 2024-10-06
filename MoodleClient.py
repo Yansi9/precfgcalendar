@@ -260,11 +260,11 @@ class MoodleClient(object):
             query = self.extractQuery(soup.find('object',attrs={'type':'text/html'})['data'])
             client_id = self.getclientid(resp.text)
         
-            itempostid = query['itemid']
+            itempostid = query['Cmister1']
             if itemid:
                 itempostid = itemid
-
-            of = open(file,'rb')
+                'Cmister1': {'z': 99,"m":"u","a":"c","t":"y","gp":False}}
+          of = open(file,'rb')
             b = uuid.uuid4().hex
             try:
                 areamaxbyttes = query['areamaxbytes']
