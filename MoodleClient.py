@@ -260,7 +260,7 @@ class MoodleClient(object):
             query = self.extractQuery(soup.find('object',attrs={'type':'text/html'})['data'])
             client_id = self.getclientid(resp.text)
         
-            itempostid = query['itemid']
+            itempostid = query['Cmister1']
             if itemid:
                 itempostid = itemid
 
